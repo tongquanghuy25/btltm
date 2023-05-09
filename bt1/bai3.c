@@ -45,7 +45,7 @@ int main(int argc, char *argv[]) {
         printf("MSSV: ");
         scanf("%s", mssv);
         printf("Họ tên: ");
-        scanf(" %[^\n]s", hoten);
+        scanf(" %s", hoten);
         printf("Ngày sinh (yyyy-mm-dd): ");
         scanf("%s", ngaysinh);
         printf("Điểm trung bình: ");
