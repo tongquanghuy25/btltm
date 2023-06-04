@@ -18,7 +18,7 @@ int main(int argc, char* argv[]){
 // Thiet lap dia chi id cho socket 
     struct sockaddr_in addr;
     addr.sin_family = AF_INET;
-    addr.sin_port = htons(9004);
+    addr.sin_port = htons(9000);
     addr.sin_addr.s_addr = INADDR_ANY;
 
 // Gan dia chi cho socket
@@ -131,6 +131,7 @@ int main(int argc, char* argv[]){
     }
 
     close(server_fd);
+
     
     return 0;
 }
